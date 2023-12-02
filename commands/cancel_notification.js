@@ -18,7 +18,7 @@ module.exports = {
         const user_id = interaction.user.id;
         let channel_type = 'Channel';
         if (interaction.channel === null){
-            let channel_type = 'DM';
+            channel_type = 'DM';
         }
         let db = open_db();
         let info = delete_notification(db, username, user_id, channel_id, channel_type);
