@@ -25,7 +25,7 @@ class Notifier {
     async run(){
         while(true){
             // check for alerts every 20 minutes
-            await setTimeout(1 * 60 * 1000);
+            await setTimeout(20 * 60 * 1000);
             await this.check_and_alert_usernames();
         }
     }
