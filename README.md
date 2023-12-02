@@ -11,7 +11,7 @@ Create a `config.json` File with the following Format:
 {
     "Client_Id": "YOUR CLIENT ID",
     "Auth_Token": "YOUR APPS AUTH TOKEN",
-    "Admin_Channel": (optional)"THE USERID OF AN ADMIN USER THE SEND ERROR REPORTS"
+    "Admin_Id": (optional)"THE USERID OF AN ADMIN USER THE SEND ERROR REPORTS"
 }
 ```
 Before the Bot can be used create a new sqlite Database with `node create_db.js` and register the commands to discord with `node deploy_commands.js`  
